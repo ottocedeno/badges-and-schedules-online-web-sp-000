@@ -13,4 +13,6 @@ def assign_rooms(attendees)
   return attendees.collect {|person| "Hello, #{person}! You'll be assigned to room #{attendees.index(person) + 1}"}
 end
 
+list = ["Otto", "Indy", "Mac", "Joe"]
+
 puts assign_rooms
