@@ -19,5 +19,3 @@ def printer(attendees)
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
-
-printer(list, list)
