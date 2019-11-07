@@ -15,4 +15,4 @@ end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
 
-puts assign_rooms(list).inspect[0]
+puts assign_rooms(list).inspect
