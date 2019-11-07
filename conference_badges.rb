@@ -20,4 +20,4 @@ end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
 
-print batch_badge_creator(list)
+printer(list, list)
