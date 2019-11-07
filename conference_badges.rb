@@ -18,3 +18,5 @@ def printer(badge_list, room_assignments)
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
+
+batch_badge_creator(list)
