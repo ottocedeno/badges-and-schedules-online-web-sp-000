@@ -7,7 +7,7 @@ end
 
 def batch_badge_creator(attendees)
   badges = Array.new
-  check_this = attendees.each {|attendees| "Hello, my name is #{attendees}."}
+  check_this = attendees.collect {|attendees| "Hello, my name is #{attendees}."}
   binding.pry
 end
 
