@@ -15,6 +15,7 @@ end
 
 def printer(badge_list, room_assignments)
   badge_list.each {|badge| puts badge}
+  binding.pry
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
