@@ -19,4 +19,4 @@ end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
 
-batch_badge_creator(list)
+puts batch_badge_creator(list)
