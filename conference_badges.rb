@@ -14,6 +14,7 @@ def assign_rooms(attendees)
 end
 
 def printer
+  
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
