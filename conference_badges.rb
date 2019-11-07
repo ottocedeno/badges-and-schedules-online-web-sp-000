@@ -10,3 +10,7 @@ def batch_badge_creator(attendees)
   attendees.collect {|attendees| "Hello, my name is #{attendees}."}
   binding.pry
 end
+
+temp_list = ["Otto", "Indy", "Victor"]
+
+batch_badge_creator()
