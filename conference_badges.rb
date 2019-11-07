@@ -18,4 +18,4 @@ def printer(attendees)
   assign_rooms(attendees).each {|room| puts room}
 end
 
-list = ["Otto", "Indy", "Mac", "Joe"]
+# list = ["Otto", "Indy", "Mac", "Joe"]
