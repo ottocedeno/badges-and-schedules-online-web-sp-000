@@ -14,7 +14,7 @@ def assign_rooms(attendees)
 end
 
 def printer(badge_list, room_assignments)
-
+  badge_list.each {|badge| puts badge}
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
