@@ -13,7 +13,7 @@ def assign_rooms(attendees)
   return attendees.collect {|person| "Hello, #{person}! You'll be assigned to room #{attendees.index(person) + 1}!"}
 end
 
-def printer(badge_list, room_assignments)
+def printer(attendees)
   badge_list.each {|badge| puts badge}
   room_assignments.each {|room| puts room}
 end
