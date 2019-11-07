@@ -5,5 +5,5 @@ end
 
 def batch_badge_creator(attendees)
   badges = Array.new
-  attendees.collect {|attendees| "Hello, my name is #{attendees}"}
+  attendees.collect {|attendees| "Hello, my name is #{attendees}."}
 end
