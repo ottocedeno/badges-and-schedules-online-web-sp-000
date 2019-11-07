@@ -14,5 +14,3 @@ def assign_rooms(attendees)
 end
 
 list = ["Otto", "Indy", "Mac", "Joe"]
-
-puts assign_rooms(list)
