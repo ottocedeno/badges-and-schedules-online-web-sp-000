@@ -11,4 +11,4 @@ end
 
 temp_list = ["Otto", "Indy", "Victor"]
 
-batch_badge_creator(temp_list)
+puts batch_badge_creator(temp_list).inspect
