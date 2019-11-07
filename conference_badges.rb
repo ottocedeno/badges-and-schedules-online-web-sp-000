@@ -13,4 +13,4 @@ end
 
 temp_list = ["Otto", "Indy", "Victor"]
 
-batch_badge_creator()
+batch_badge_creator(temp_list)
