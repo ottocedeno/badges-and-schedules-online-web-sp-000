@@ -6,9 +6,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  return attendees.collect {|attendees| "Hello, my name is #{attendees}."}
+  return attendees.collect {|person| "Hello, my name is #{person}."}
 end
 
 def assign_rooms(attendees)
-  attendees.collect {|attendees| "Hello, #{attendees}"}
+  attendees.collect {|attendees| "Hello, #{attendees}! You'll be assigned to room "}
 end
